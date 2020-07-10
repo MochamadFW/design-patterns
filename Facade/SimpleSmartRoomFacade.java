@@ -29,7 +29,7 @@ public class SimpleSmartRoomFacade {
     public void ModeMalam(){
         lampu.off();
         ac.off();
-        lampuTidur.off();
+        lampuTidur.on();
     }
     
     public void ModeKosong(){
